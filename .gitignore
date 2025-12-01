@@ -1,0 +1,55 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Executables
+bin/
+*.out
+
+# Test binary, built with `go test -c`
+*.test
+
+# Built main files
+main
+main.exe
+
+# Output of the go coverage tool
+coverage.out
+coverage.html
+
+# Go build cache
+/go-build/
+
+# Go mod cache
+go/pkg/mod/
+
+# Go vendor directory (if not committed)
+vendor/
+
+# Debug binaries
+debug
+
+# Local configuration
+*.local.yml
+*.local.toml
+*.env
+.env
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Temp files
+tmp/
+temp/
